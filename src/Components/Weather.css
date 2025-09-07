@@ -1,0 +1,70 @@
+.body {
+    background-image: url('https://study.com/cimages/videopreview/videopreview-full/weather-definition-and-types_113503.jpg');
+    border-radius: 20px;
+}
+
+.weather{
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(15px); 
+    
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.search-bar input{
+    padding: 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(15px); 
+    border: 2px rgb(82, 143, 113) solid;
+    outline: none;
+    height: 40px;
+    padding-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+.search-bar img{
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img-size{
+    height: 150px;
+    margin-top: 30px;
+}
+.box{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.size{
+    font-size: 30px;
+}
+.weather-img img{
+    height: 30px;
+}
+.weather-img img{
+    height: 30px;
+}
+.weather1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.weather-img {
+    display: flex;
+    gap: 10px;
+}
