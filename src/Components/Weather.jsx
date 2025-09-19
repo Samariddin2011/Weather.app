@@ -34,7 +34,6 @@ import { useRef } from 'react'
       }
 
 
-
     const [weatherData, setWeatherData] = useState(false)
 
    
@@ -69,12 +68,17 @@ import { useRef } from 'react'
 
 
 
+
    return (
     <div className='body'>
       
      <div className='weather'>
         <div className="search-bar">
-            <input ref={inputRef} type="text" placeholder='Search'/>
+            <input id="weather-input"  onKeyDown={(e) => {
+    if (e.key === "Enter") {
+      search(e.target.value); 
+    }
+  }}  ref={inputRef} type="text" placeholder='Search'/>
             <img src="https://toppng.com/uploads/preview/search-icon-customer-icon-11564158924ifw7wyjtfu.png" alt=""  onClick={()=> search(inputRef.current.value)}/>
         </div> 
     
